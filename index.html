@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name"viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/bootstrap.css"rel="stylesheet">
+  <link href="css/style.css"rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron">
+  <h2 class="title">Ping-Pong</h2>
+</div>
+<div class="row bodyBg">
+    <div class="col-md-3 side">
+      <strong><h2>About Ping Pong</h2></strong>
+      <h4>Created by:</h4>
+      <p>Vicklyne Akinyi</p>
+      <h4>Github Username/URL:</h4>
+      <p>
+      <h4>Level 2 Text for: </h4>
+      <p>JavaScript</p>
+    </div>
+    <div class="col-md-9 main">
+      <h4>Let's play!</h4>
+      <h5>Rules</h5>
+      <p>Ping Pong will count your number from 1 with the following exceptions: </p>
+      <ol>
+        <li>Numbers divisible by 3 become "ping".</li>
+        <li>Numbers divisible by 5 become "pong".</li>
+        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+      </ol>
+      <form id="ping">
+        <label id="inquire">Enter the number here:</label>
+        <input type="text" id="number">
+        <button class="btn" type="submit">Ping Pong!</button>
+      </form>
+      <div id="result">
+        <ul id="results"></ul>
+      </div>
+    </div>
+  </div>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

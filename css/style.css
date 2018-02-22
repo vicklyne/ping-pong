@@ -1,0 +1,42 @@
+.jumbotron{
+  background-color: #f7bf8f;
+  margin-bottom: 0%;
+}
+.title{
+  margin-top: 5%;
+  margin-left: 50%;
+  font-weight: bolder;
+  font-size: 350%;
+}
+.bodyBg{
+  background-color: #F0F0F0;
+}
+.side{
+  margin-top: 2%;
+  background-color: #336633;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 30%;
+  font-size: 30px;
+}
+.side p{
+  color: white;
+  font-size: 20px;
+}
+.side h4{
+  color: #f7bf8f;
+  font-size: 25px;
+}
+.main{
+  margin-top: 10%;
+  padding-left: 5%;
+  font-size: 10px;
+}
+.main h4,h5{
+  font-size: 23px;
+  font-weight: bolder;
+}
+.btn{
+  font-size: 20px;
+  font-weight: bold;
+}
